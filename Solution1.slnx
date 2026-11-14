@@ -1,0 +1,23 @@
+<Solution>
+  <Folder Name="/Application Services/">
+    <Project Path="Zorgcentrum.ApplicationServices/Zorgcentrum.ApplicationServices.csproj" Id="8a81fa62-ae4d-46eb-b489-d26b54b724a9" />
+  </Folder>
+  <Folder Name="/Buildingblocks/" />
+  <Folder Name="/Domein/">
+    <Project Path="Zorgcentrum.Domein.sln/Zorgcentrum.Domein.sln.csproj" />
+  </Folder>
+  <Folder Name="/Infrastructuur/">
+    <File Path="../../../../../Repos/OpdrachtZorgcentrum/source/repos/wpf/Zorgcentrum/infrastructuur/create_Afdelingen.sql" />
+    <File Path="../../../../../Repos/OpdrachtZorgcentrum/source/repos/wpf/Zorgcentrum/infrastructuur/create_Afspraken.sql" />
+    <File Path="../../../../../Repos/OpdrachtZorgcentrum/source/repos/wpf/Zorgcentrum/infrastructuur/create_Artsen.sql" />
+    <File Path="../../../../../Repos/OpdrachtZorgcentrum/source/repos/wpf/Zorgcentrum/infrastructuur/create_Patiënten.sql" />
+    <File Path="../../../Desktop/Afspraken.csv" />
+    <File Path="../../../Desktop/Artsen.csv" />
+    <File Path="../../../Desktop/Patienten.csv" />
+    <Project Path="infrastructuur/infrastructuur.csproj" Id="a52749fa-4634-4e14-8c76-8e1cf1c382ec" />
+  </Folder>
+  <Folder Name="/Presentatie/">
+    <Project Path="Presentatie/Presentatie.csproj" Id="899d3a81-7bc9-40ff-9bfc-40e7e205ca60" />
+  </Folder>
+  <Folder Name="/Test/" />
+</Solution>

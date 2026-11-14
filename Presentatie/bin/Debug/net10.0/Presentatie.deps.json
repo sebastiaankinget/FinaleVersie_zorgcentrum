@@ -1,0 +1,55 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Presentatie/1.0.0": {
+        "dependencies": {
+          "Zorgcentrum.ApplicationServices": "1.0.0"
+        },
+        "runtime": {
+          "Presentatie.dll": {}
+        }
+      },
+      "Zorgcentrum.ApplicationServices/1.0.0": {
+        "dependencies": {
+          "Zorgcentrum.Domein.sln": "1.0.0"
+        },
+        "runtime": {
+          "Zorgcentrum.ApplicationServices.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Zorgcentrum.Domein.sln/1.0.0": {
+        "runtime": {
+          "Zorgcentrum.Domein.sln.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Presentatie/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Zorgcentrum.ApplicationServices/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Zorgcentrum.Domein.sln/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
