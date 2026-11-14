@@ -11,22 +11,28 @@
       "RelativeMoniker": "D:0:0:{899D3A81-7BC9-40FF-9BFC-40E7E205CA60}|Presentatie\\Presentatie.csproj|solutionrelative:presentatie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B2DBFB51-8FCE-3146-1624-2EF13D97F5DD}|Infrastructuur{B2DBFB51-8FCE-3146-1624-2EF13D97F5DD}|C:\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Afspraken.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sebas\\AppData\\Local\\Temp\\SQLQuery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2DBFB51-8FCE-3146-1624-2EF13D97F5DD}|Infrastructuur{B2DBFB51-8FCE-3146-1624-2EF13D97F5DD}|C:\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Pati\u00EBnten.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Zorgcentrum/True/SqlTable/dbo.Pati\u00EBnten.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Zorgcentrum/True/SqlTable/dbo.Artsen.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B2DBFB51-8FCE-3146-1624-2EF13D97F5DD}|Infrastructuur{B2DBFB51-8FCE-3146-1624-2EF13D97F5DD}|C:\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Artsen.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2DBFB51-8FCE-3146-1624-2EF13D97F5DD}|Infrastructuur{B2DBFB51-8FCE-3146-1624-2EF13D97F5DD}|C:\\Users\\Sebas\\Desktop\\Afspraken.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2DBFB51-8FCE-3146-1624-2EF13D97F5DD}|Infrastructuur{B2DBFB51-8FCE-3146-1624-2EF13D97F5DD}|C:\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Pati\u00EBnten.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2DBFB51-8FCE-3146-1624-2EF13D97F5DD}|Infrastructuur{B2DBFB51-8FCE-3146-1624-2EF13D97F5DD}|C:\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Afdelingen.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B2DBFB51-8FCE-3146-1624-2EF13D97F5DD}|Infrastructuur{B2DBFB51-8FCE-3146-1624-2EF13D97F5DD}|C:\\Users\\Sebas\\Desktop\\Artsen.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2DBFB51-8FCE-3146-1624-2EF13D97F5DD}|Infrastructuur{B2DBFB51-8FCE-3146-1624-2EF13D97F5DD}|C:\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Afspraken.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A81FA62-AE4D-46EB-B489-D26B54B724A9}|Zorgcentrum.ApplicationServices\\Zorgcentrum.ApplicationServices.csproj|c:\\users\\sebas\\source\\repos\\solution1\\zorgcentrum.applicationservices\\applicationpatienten.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,6 +80,21 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2DBFB51-8FCE-3146-1624-2EF13D97F5DD}|Infrastructuur{B2DBFB51-8FCE-3146-1624-2EF13D97F5DD}|C:\\Users\\Sebas\\Desktop\\Patienten.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2DBFB51-8FCE-3146-1624-2EF13D97F5DD}|Infrastructuur{B2DBFB51-8FCE-3146-1624-2EF13D97F5DD}|C:\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Pati\u00EBnten.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2DBFB51-8FCE-3146-1624-2EF13D97F5DD}|Infrastructuur{B2DBFB51-8FCE-3146-1624-2EF13D97F5DD}|C:\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Artsen.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sebas\\AppData\\Local\\Temp\\SQLQuery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sebas\\AppData\\Local\\Temp\\SQLQuery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2DBFB51-8FCE-3146-1624-2EF13D97F5DD}|Infrastructuur{B2DBFB51-8FCE-3146-1624-2EF13D97F5DD}|C:\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Afspraken.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -83,7 +104,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 1068,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -91,62 +112,61 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "create_Afspraken.sql ",
+              "DocumentMoniker": "C:\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Afspraken.sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Afspraken.sql",
+              "ToolTip": "C:\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Afspraken.sql",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Afspraken.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-11-14T10:16:33.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SQLQuery2.sql ",
+              "DocumentMoniker": "C:\\Users\\Sebas\\AppData\\Local\\Temp\\SQLQuery2.sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\SQLQuery2.sql",
+              "ToolTip": "SQLQuery2.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-11-14T09:40:53.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dbo.Pati\u00EBnten [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Zorgcentrum/True/SqlTable/dbo.Pati\u00EBnten.sql",
+              "ToolTip": "dbo.Pati\u00EBnten [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-11-14T09:38:19.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Sebas\\source\\repos\\Solution1\\infrastructuur\\Program.cs",
               "RelativeDocumentMoniker": "infrastructuur\\Program.cs",
-              "ToolTip": "C:\\Users\\Sebas\\source\\repos\\Solution1\\infrastructuur\\Program.cs",
-              "RelativeToolTip": "infrastructuur\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAuwA8AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Sebas\\source\\repos\\Solution1\\infrastructuur\\Program.cs*",
+              "RelativeToolTip": "infrastructuur\\Program.cs*",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-13T15:05:13.987Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Artsen.csv",
-              "DocumentMoniker": "C:\\Users\\Sebas\\Desktop\\Artsen.csv",
-              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Artsen.csv",
-              "ToolTip": "C:\\Users\\Sebas\\Desktop\\Artsen.csv",
-              "RelativeToolTip": "..\\..\\..\\Desktop\\Artsen.csv",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2026-11-13T13:19:11.757Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "create_Afdelingen.sql",
-              "DocumentMoniker": "C:\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Afdelingen.sql",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Afdelingen.sql",
-              "ToolTip": "C:\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Afdelingen.sql",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Afdelingen.sql",
+              "DocumentIndex": 4,
+              "Title": "create_Pati\u00EBnten.sql ",
+              "DocumentMoniker": "C:\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Pati\u00EBnten.sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Pati\u00EBnten.sql",
+              "ToolTip": "C:\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Pati\u00EBnten.sql",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Pati\u00EBnten.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-11-13T14:00:06.03Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Afspraken.csv",
-              "DocumentMoniker": "C:\\Users\\Sebas\\Desktop\\Afspraken.csv",
-              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Afspraken.csv",
-              "ToolTip": "C:\\Users\\Sebas\\Desktop\\Afspraken.csv",
-              "RelativeToolTip": "..\\..\\..\\Desktop\\Afspraken.csv",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2026-11-13T13:18:59.916Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "create_Artsen.sql",
-              "DocumentMoniker": "C:\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Artsen.sql",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Artsen.sql",
-              "ToolTip": "C:\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Artsen.sql",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Artsen.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-11-13T14:00:08.793Z"
+              "WhenOpened": "2026-11-13T14:00:09.661Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -158,33 +178,60 @@
               "RelativeToolTip": "Presentatie\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-13T13:05:02.713Z"
+              "WhenOpened": "2026-11-13T13:05:02.713Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "create_Pati\u00EBnten.sql",
-              "DocumentMoniker": "C:\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Pati\u00EBnten.sql",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Pati\u00EBnten.sql",
-              "ToolTip": "C:\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Pati\u00EBnten.sql",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Pati\u00EBnten.sql",
+              "DocumentIndex": 6,
+              "Title": "dbo.Artsen [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Zorgcentrum/True/SqlTable/dbo.Artsen.sql",
+              "ToolTip": "dbo.Artsen [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-11-13T14:00:09.661Z"
+              "WhenOpened": "2026-11-14T09:35:11.827Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "create_Afspraken.sql",
-              "DocumentMoniker": "C:\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Afspraken.sql",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Afspraken.sql",
-              "ToolTip": "C:\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Afspraken.sql",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Afspraken.sql",
+              "Title": "create_Artsen.sql ",
+              "DocumentMoniker": "C:\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Artsen.sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Artsen.sql",
+              "ToolTip": "C:\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Artsen.sql",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Repos\\OpdrachtZorgcentrum\\source\\repos\\wpf\\Zorgcentrum\\infrastructuur\\create_Artsen.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-11-13T14:00:07.637Z"
+              "WhenOpened": "2026-11-13T14:00:08.793Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Afspraken.csv",
+              "DocumentMoniker": "C:\\Users\\Sebas\\Desktop\\Afspraken.csv",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Afspraken.csv",
+              "ToolTip": "C:\\Users\\Sebas\\Desktop\\Afspraken.csv",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\Afspraken.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2026-11-13T13:18:59.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Artsen.csv",
+              "DocumentMoniker": "C:\\Users\\Sebas\\Desktop\\Artsen.csv",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Artsen.csv",
+              "ToolTip": "C:\\Users\\Sebas\\Desktop\\Artsen.csv",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\Artsen.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2026-11-13T13:19:11.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ApplicationPatienten.cs",
               "DocumentMoniker": "C:\\Users\\Sebas\\source\\repos\\Solution1\\Zorgcentrum.ApplicationServices\\ApplicationPatienten.cs",
               "RelativeDocumentMoniker": "Zorgcentrum.ApplicationServices\\ApplicationPatienten.cs",
@@ -192,11 +239,12 @@
               "RelativeToolTip": "Zorgcentrum.ApplicationServices\\ApplicationPatienten.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAQwEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-13T13:01:29.884Z"
+              "WhenOpened": "2026-11-13T13:01:29.884Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Afspraken.cs",
               "DocumentMoniker": "C:\\Users\\Sebas\\source\\repos\\Solution1\\Zorgcentrum.Domein.sln\\Afspraken.cs",
               "RelativeDocumentMoniker": "Zorgcentrum.Domein.sln\\Afspraken.cs",
@@ -204,11 +252,12 @@
               "RelativeToolTip": "Zorgcentrum.Domein.sln\\Afspraken.cs",
               "ViewState": "AgIAAEMAAAAAAAAAAAAgwFEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-13T09:49:28.804Z"
+              "WhenOpened": "2026-11-13T09:49:28.804Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "ApplicationAfspraken.cs",
               "DocumentMoniker": "C:\\Users\\Sebas\\source\\repos\\Solution1\\Zorgcentrum.ApplicationServices\\ApplicationAfspraken.cs",
               "RelativeDocumentMoniker": "Zorgcentrum.ApplicationServices\\ApplicationAfspraken.cs",
@@ -216,11 +265,12 @@
               "RelativeToolTip": "Zorgcentrum.ApplicationServices\\ApplicationAfspraken.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-13T13:02:05.618Z"
+              "WhenOpened": "2026-11-13T13:02:05.618Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ApplicationArtsen.cs",
               "DocumentMoniker": "C:\\Users\\Sebas\\source\\repos\\Solution1\\Zorgcentrum.ApplicationServices\\ApplicationArtsen.cs",
               "RelativeDocumentMoniker": "Zorgcentrum.ApplicationServices\\ApplicationArtsen.cs",
@@ -228,11 +278,12 @@
               "RelativeToolTip": "Zorgcentrum.ApplicationServices\\ApplicationArtsen.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-13T12:58:59.635Z"
+              "WhenOpened": "2026-11-13T12:58:59.635Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Patienten.csv",
               "DocumentMoniker": "C:\\Users\\Sebas\\Desktop\\Patienten.csv",
               "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Patienten.csv",
@@ -240,11 +291,12 @@
               "RelativeToolTip": "..\\..\\..\\Desktop\\Patienten.csv",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2026-11-13T13:19:20.997Z"
+              "WhenOpened": "2026-11-13T13:19:20.997Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Arsten.cs",
               "DocumentMoniker": "C:\\Users\\Sebas\\source\\repos\\Solution1\\Zorgcentrum.Domein.sln\\Arsten.cs",
               "RelativeDocumentMoniker": "Zorgcentrum.Domein.sln\\Arsten.cs",
@@ -252,22 +304,24 @@
               "RelativeToolTip": "Zorgcentrum.Domein.sln\\Arsten.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAswCoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-13T10:10:41.921Z"
+              "WhenOpened": "2026-11-13T10:10:41.921Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Presentatie",
               "DocumentMoniker": "C:\\Users\\Sebas\\source\\repos\\Solution1\\Presentatie\\Presentatie.csproj",
               "RelativeDocumentMoniker": "Presentatie\\Presentatie.csproj",
               "ToolTip": "C:\\Users\\Sebas\\source\\repos\\Solution1\\Presentatie\\Presentatie.csproj",
               "RelativeToolTip": "Presentatie\\Presentatie.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-11-13T13:30:17.826Z"
+              "WhenOpened": "2026-11-13T13:30:17.826Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Zorgcentrum.Domein.sln.csproj",
               "DocumentMoniker": "C:\\Users\\Sebas\\source\\repos\\Solution1\\Zorgcentrum.Domein.sln\\Zorgcentrum.Domein.sln.csproj",
               "RelativeDocumentMoniker": "Zorgcentrum.Domein.sln\\Zorgcentrum.Domein.sln.csproj",
@@ -275,11 +329,12 @@
               "RelativeToolTip": "Zorgcentrum.Domein.sln\\Zorgcentrum.Domein.sln.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-11-13T13:12:07.237Z"
+              "WhenOpened": "2026-11-13T13:12:07.237Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Patienten.cs",
               "DocumentMoniker": "C:\\Users\\Sebas\\source\\repos\\Solution1\\Zorgcentrum.Domein.sln\\Patienten.cs",
               "RelativeDocumentMoniker": "Zorgcentrum.Domein.sln\\Patienten.cs",
@@ -287,11 +342,12 @@
               "RelativeToolTip": "Zorgcentrum.Domein.sln\\Patienten.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-13T10:00:00.361Z"
+              "WhenOpened": "2026-11-13T10:00:00.361Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Personen.cs",
               "DocumentMoniker": "C:\\Users\\Sebas\\source\\repos\\Solution1\\Zorgcentrum.Domein.sln\\Personen.cs",
               "RelativeDocumentMoniker": "Zorgcentrum.Domein.sln\\Personen.cs",
@@ -299,11 +355,12 @@
               "RelativeToolTip": "Zorgcentrum.Domein.sln\\Personen.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAADwvxEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-13T10:02:30.758Z"
+              "WhenOpened": "2026-11-13T10:02:30.758Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Zorgcentrum.ApplicationServices.csproj",
               "DocumentMoniker": "C:\\Users\\Sebas\\source\\repos\\Solution1\\Zorgcentrum.ApplicationServices\\Zorgcentrum.ApplicationServices.csproj",
               "RelativeDocumentMoniker": "Zorgcentrum.ApplicationServices\\Zorgcentrum.ApplicationServices.csproj",
@@ -311,11 +368,12 @@
               "RelativeToolTip": "Zorgcentrum.ApplicationServices\\Zorgcentrum.ApplicationServices.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-11-13T12:58:47.259Z"
+              "WhenOpened": "2026-11-13T12:58:47.259Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Presentatie.csproj",
               "DocumentMoniker": "C:\\Users\\Sebas\\source\\repos\\Solution1\\Presentatie\\Presentatie.csproj",
               "RelativeDocumentMoniker": "Presentatie\\Presentatie.csproj",
@@ -323,7 +381,8 @@
               "RelativeToolTip": "Presentatie\\Presentatie.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-11-13T13:10:37.165Z"
+              "WhenOpened": "2026-11-13T13:10:37.165Z",
+              "EditorCaption": ""
             }
           ]
         }
