@@ -11,9 +11,10 @@ namespace Zorgcentrum.ApplicationServices
         public static void RunPatiënten()
         {
             string filePath = "C:\\Users\\Sebas\\Desktop\\Patienten.csv";
-            int i = 0;
+       
 
             List<Patiënten> patiënten = LoadCsvPatiënten(filePath);
+
 
             foreach (var persoon in patiënten)
             {

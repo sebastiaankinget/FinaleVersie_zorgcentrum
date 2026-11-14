@@ -17,6 +17,7 @@
     <Project Path="infrastructuur/infrastructuur.csproj" Id="a52749fa-4634-4e14-8c76-8e1cf1c382ec" />
   </Folder>
   <Folder Name="/Presentatie/">
+    <Project Path="HelloWPF/HelloWPF.csproj" Id="db355a6b-ca6c-47a5-be73-e77d6b1c9e92" />
     <Project Path="Presentatie/Presentatie.csproj" Id="899d3a81-7bc9-40ff-9bfc-40e7e205ca60" />
   </Folder>
   <Folder Name="/Test/" />
