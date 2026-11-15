@@ -11,9 +11,6 @@
     <File Path="../../../../../Repos/OpdrachtZorgcentrum/source/repos/wpf/Zorgcentrum/infrastructuur/create_Afspraken.sql" />
     <File Path="../../../../../Repos/OpdrachtZorgcentrum/source/repos/wpf/Zorgcentrum/infrastructuur/create_Artsen.sql" />
     <File Path="../../../../../Repos/OpdrachtZorgcentrum/source/repos/wpf/Zorgcentrum/infrastructuur/create_Patiënten.sql" />
-    <File Path="../../../Desktop/Afspraken.csv" />
-    <File Path="../../../Desktop/Artsen.csv" />
-    <File Path="../../../Desktop/Patienten.csv" />
     <Project Path="infrastructuur/infrastructuur.csproj" Id="a52749fa-4634-4e14-8c76-8e1cf1c382ec" />
   </Folder>
   <Folder Name="/Presentatie/">

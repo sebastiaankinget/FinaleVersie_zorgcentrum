@@ -142,18 +142,19 @@ namespace Zorgcentrum.infrastructuur
             }
 
             // Insert-acties
-            public void InsertAfdelingVoorPatient(string Rijksregisternummer, string AfdelingCode)
+            public static void InsertAfdelingenVoorPatient(string Rijksregisternummer, string AfdelingCode)
             {
-                const string insertSql = "INSERT INTO dbo.AfdelingVoorPatient (Rijksregisternummer, AfdelingCode) VALUES (@Rijksregisternummer, @AfdelingCode);";
+                const string insertSql = "INSERT INTO dbo.AfdelingenVoorPatient (Rijksregisternummer, AfdelingCode) VALUES (@Rijksregisternummer, @AfdelingCode);";
+                string defConnectionString = @"Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=Zorgcentrum; Integrated Security=True";
 
-                using (SqlConnection connection = new SqlConnection(_connectionString))
+                using (SqlConnection connection = new SqlConnection(defConnectionString))
                 {
                     connection.Open();
                     using (SqlCommand insertCommand = new SqlCommand(insertSql, connection))
                     {
                         insertCommand.Parameters.Add("@Rijksregisternummer", SqlDbType.VarChar).Value = Rijksregisternummer;
                         insertCommand.Parameters.Add("@AfdelingCode", SqlDbType.VarChar).Value = AfdelingCode;
-
+                        
                         insertCommand.ExecuteNonQuery();
                         Console.WriteLine($"Afdeling {AfdelingCode} voor Patiënt {Rijksregisternummer} toegevoegd.");
                     }
@@ -183,11 +184,12 @@ namespace Zorgcentrum.infrastructuur
             }
 
             // Insert-acties
-            public void InsertAfdelingVoorArts(string Rijksregisternummer, string AfdelingCode)
+            public static void InsertAfdelingenVoorArts(string Rijksregisternummer, string AfdelingCode)
             {
-                const string insertSql = "INSERT INTO dbo.AfdelingVoorArts (Rijksregisternummer, AfdelingCode) VALUES (@Rijksregisternummer, @AfdelingCode);";
+                const string insertSql = "INSERT INTO dbo.AfdelingenVoorArts (Rijksregisternummer, AfdelingCode) VALUES (@Rijksregisternummer, @AfdelingCode);";
+                string defConnectionString = @"Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=Zorgcentrum; Integrated Security=True";
 
-                using (SqlConnection connection = new SqlConnection(_connectionString))
+                using (SqlConnection connection = new SqlConnection(defConnectionString))
                 {
                     connection.Open();
                     using (SqlCommand insertCommand = new SqlCommand(insertSql, connection))
@@ -196,12 +198,12 @@ namespace Zorgcentrum.infrastructuur
                         insertCommand.Parameters.Add("@AfdelingCode", SqlDbType.VarChar).Value = AfdelingCode;
 
                         insertCommand.ExecuteNonQuery();
-                        Console.WriteLine($"Afdeling {AfdelingCode}voor Arts {Rijksregisternummer} toegevoegd.");
+                        Console.WriteLine($"Afdeling {AfdelingCode} voor Arts {Rijksregisternummer} toegevoegd.");
                     }
                 }
             }
 
-            public void InsertAfspraak(int AfspraakId, string Type, DateTime DatumTijdStart, int DuurMin, string rijksregisterNrPatiënt, string rijksregisterNrArts, string AfdelingsCode, string extra1, string extra2)
+            public static void InsertAfspraak(int AfspraakId, string Type, DateTime DatumTijdStart, int DuurMin, string rijksregisterNrPatiënt, string rijksregisterNrArts, string AfdelingsCode, string extra1, string extra2)
             {
                 const string insertSql = @"INSERT INTO dbo.Afspraken
                                       (AfspraakId, Type, DatumTijdStart, DuurMin, rijksregisterNrPatiënt, rijksregisterNrArts, AfdelingsCode, extra1, extra2)

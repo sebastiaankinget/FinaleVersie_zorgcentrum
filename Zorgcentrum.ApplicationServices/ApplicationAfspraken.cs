@@ -12,7 +12,7 @@ namespace Zorgcentrum.ApplicationServices
     {
         public static void RunAfspraken()
         {
-            string filePath = @"C:\Users\Sebas\Desktop\Afspraken.csv";
+            string filePath = @"C:\Users\Sebas\source\repos\Solution1\infrastructuur\Afspraken.csv";
             int i = 0;
 
             List<Afspraken> afspraken = LoadCsvAfspraken(filePath);

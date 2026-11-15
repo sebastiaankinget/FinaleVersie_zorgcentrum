@@ -14,7 +14,7 @@ namespace Zorgcentrum.ApplicationServices
     {
         public static void RunPatiënten()
         {
-            string filePath = "C:\\Users\\Sebas\\Desktop\\Patienten.csv";
+            string filePath = "C:\\Users\\Sebas\\source\\repos\\Solution1\\infrastructuur\\Patienten.csv";
        
 
             List<Patiënten> patiënten = LoadCsvPatiënten(filePath);
@@ -27,15 +27,16 @@ namespace Zorgcentrum.ApplicationServices
                          $"- ");
                 Program.DatabaseActions.InsertPatient(persoon.Rijksregisternummer, persoon.Naam, persoon.Voornaam);
 
-               Console.Write($"{persoon.Rijksregisternummer} - {persoon.Naam} - {persoon.Voornaam} - " +
-                        $"- ");
+             
 
                 
                 foreach (var afdeling in persoon.Afdelingen)
 
                 {
                     Console.Write(afdeling); Console.Write(" ");
-
+                    string afdelingAsString = afdeling.ToString();
+                    Program.DatabaseActions.InsertAfdelingenVoorPatient(persoon.Rijksregisternummer, afdelingAsString);
+                    
                 }
                 Console.WriteLine();
 

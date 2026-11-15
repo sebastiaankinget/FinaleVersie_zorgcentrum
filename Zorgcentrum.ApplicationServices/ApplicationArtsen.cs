@@ -12,8 +12,8 @@ namespace Zorgcentrum.ApplicationServices
     {
         public static void RunArtsen()
         {
-            string filePath = "C:\\Users\\Sebas\\Desktop\\Artsen.csv";
-            int i = 0;
+            string filePath = "C:\\Users\\Sebas\\source\\repos\\Solution1\\infrastructuur\\Artsen.csv";
+       
 
             List<Artsen> artsen = LoadCsvArtsen(filePath);
 
@@ -21,11 +21,11 @@ namespace Zorgcentrum.ApplicationServices
             foreach (var persoon in artsen)
             {
 
-                Console.Write($"{persoon.Rijksregisternummer} - {persoon.Naam} - {persoon.Voornaam} -  {persoon.RIZIV} - {persoon.Specialisatie} - " +
-                         $"- ");
-                Program.DatabaseActions.InsertArts(persoon.Rijksregisternummer, persoon.Naam, persoon.Voornaam, persoon.RIZIV, persoon.Specialisatie);
+                // Console.Write($"{persoon.Rijksregisternummer} - {persoon.Naam} - {persoon.Voornaam} -  {persoon.RIZIV} - {persoon.Specialisatie} - " +
+             //            $"- ");
+                //   Program.DatabaseActions.InsertArts(persoon.Rijksregisternummer, persoon.Naam, persoon.Voornaam, persoon.RIZIV, persoon.Specialisatie);
 
-                if (persoon.RIZIV.Replace(".", "").Replace("-", "").Length != 15)
+      /*          if (persoon.RIZIV.Replace(".", "").Replace("-", "").Length != 15)
                 {
 
 
@@ -33,11 +33,15 @@ namespace Zorgcentrum.ApplicationServices
 
                 }
 
+                */
 
-                Console.Write($"{persoon.Rijksregisternummer} - {persoon.Naam} - {persoon.Voornaam} - " +
-                        $"{persoon.RIZIV} - {persoon.Specialisatie} - ");
+            //    Console.Write($"{persoon.Rijksregisternummer} - {persoon.Naam} - {persoon.Voornaam} - " +
+               //         $"{persoon.RIZIV} - {persoon.Specialisatie} - ");
                 foreach (var afdeling in persoon.Afdelingen)
                 {
+                    string afdelingAsString = afdeling.ToString();
+                    Program.DatabaseActions.InsertAfdelingenVoorPatient(persoon.Rijksregisternummer, afdelingAsString);
+
                     Console.Write(afdeling);
 
                 }
@@ -48,7 +52,7 @@ namespace Zorgcentrum.ApplicationServices
             }
 
 
-
+            /*
 
             Console.WriteLine("--------------------------------------------------");
             Console.WriteLine("Artsen met een ongeldige RIZIV:");
@@ -57,6 +61,8 @@ namespace Zorgcentrum.ApplicationServices
                 Console.WriteLine($"{arts.Rijksregisternummer} - {arts.Naam} - {arts.Voornaam} - " +
                     $"{arts.RIZIV} - {arts.Specialisatie} -   {arts.Afdelingen}");
             }
+
+            */
             static List<Artsen> LoadCsvArtsen(string path)
             {
                 var result = new List<Artsen>();
@@ -106,5 +112,7 @@ namespace Zorgcentrum.ApplicationServices
         }
     }
 }
+    
+
 
 
