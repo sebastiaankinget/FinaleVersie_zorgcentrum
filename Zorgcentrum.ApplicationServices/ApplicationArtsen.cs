@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Zorgcentrum.domein;
+using Zorgcentrum.infrastructuur;
 
 namespace Zorgcentrum.ApplicationServices
 {
@@ -20,7 +21,11 @@ namespace Zorgcentrum.ApplicationServices
             foreach (var persoon in artsen)
             {
 
-                if (persoon.RIZIV.Replace(".", "").Replace("-", "").Length != 11)
+                Console.Write($"{persoon.Rijksregisternummer} - {persoon.Naam} - {persoon.Voornaam} -  {persoon.RIZIV} - {persoon.Specialisatie} - " +
+                         $"- ");
+                Program.DatabaseActions.InsertArts(persoon.Rijksregisternummer, persoon.Naam, persoon.Voornaam, persoon.RIZIV, persoon.Specialisatie);
+
+                if (persoon.RIZIV.Replace(".", "").Replace("-", "").Length != 15)
                 {
 
 
@@ -29,7 +34,7 @@ namespace Zorgcentrum.ApplicationServices
                 }
 
 
-                Console.Write($"{persoon.Rijkregisternummer} - {persoon.Naam} - {persoon.Voornaam} - " +
+                Console.Write($"{persoon.Rijksregisternummer} - {persoon.Naam} - {persoon.Voornaam} - " +
                         $"{persoon.RIZIV} - {persoon.Specialisatie} - ");
                 foreach (var afdeling in persoon.Afdelingen)
                 {
@@ -49,7 +54,7 @@ namespace Zorgcentrum.ApplicationServices
             Console.WriteLine("Artsen met een ongeldige RIZIV:");
             foreach (var arts in artsenmetfoutRIZIV)
             {
-                Console.WriteLine($"{arts.Rijkregisternummer} - {arts.Naam} - {arts.Voornaam} - " +
+                Console.WriteLine($"{arts.Rijksregisternummer} - {arts.Naam} - {arts.Voornaam} - " +
                     $"{arts.RIZIV} - {arts.Specialisatie} -   {arts.Afdelingen}");
             }
             static List<Artsen> LoadCsvArtsen(string path)
@@ -85,7 +90,7 @@ namespace Zorgcentrum.ApplicationServices
 
 
                         result.Add(new Artsen(
-                            values[0], // rijkregisternummer
+                            values[0], // rijksregisternummer
                             values[1], // naam
                             values[2],
                              values[3],

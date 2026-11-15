@@ -3,7 +3,7 @@ using System;
 using Zorgcentrum.domein;
 using Zorgcentrum.ApplicationServices;
 
-/*
+
 internal class Program
 {
     static void Main(string[] args)
@@ -27,4 +27,4 @@ internal class Program
 
         }
     }
-}*/
+}

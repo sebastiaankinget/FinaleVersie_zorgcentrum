@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Zorgcentrum.domein;
+using Zorgcentrum.infrastructuur;
 
 namespace Zorgcentrum.ApplicationServices
 {
@@ -19,7 +20,9 @@ namespace Zorgcentrum.ApplicationServices
             foreach (var afspraak in afspraken)
             {
 
-                
+                Program.DatabaseActions.InsertAfspraak(afspraak.Afspraakid, afspraak.Type, afspraak.Datuumtijdstart, afspraak.DuurMin, 
+                    afspraak.RijksregisterNrPatiënt, afspraak.RijksregisterNrArts, afspraak.AfdelingCode, afspraak.Extra1, afspraak.Extra2);
+
 
                 Console.WriteLine($"{afspraak.Afspraakid} - {afspraak.Type} - {afspraak.Datuumtijdstart} - " +
                         $"{afspraak.DuurMin} - {afspraak.RijksregisterNrPatiënt} - {afspraak.RijksregisterNrArts} - {afspraak.AfdelingCode} - {afspraak.Extra1} - {afspraak.Extra2}");

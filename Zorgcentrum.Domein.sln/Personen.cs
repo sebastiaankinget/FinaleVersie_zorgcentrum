@@ -9,18 +9,18 @@ namespace Zorgcentrum.domein
 {
     public abstract class Persoon
     {
-        private string _rijkregisternummer;
+        private string _rijksregisternummer;
         private string _naam;
         private string _voornaam;
 
-        public string Rijkregisternummer
+        public string Rijksregisternummer
         {
-            get => _rijkregisternummer;
+            get => _rijksregisternummer;
             init
             {
 
 
-                _rijkregisternummer = value;
+                _rijksregisternummer = value;
             }
         }
 
@@ -43,9 +43,9 @@ namespace Zorgcentrum.domein
 
 
 
-        public Persoon(string rijkregisternummer, string naam, string voornaam)
+        public Persoon(string rijksregisternummer, string naam, string voornaam)
         {
-            Rijkregisternummer = rijkregisternummer;
+            Rijksregisternummer = rijksregisternummer;
 
             Naam = naam;
 

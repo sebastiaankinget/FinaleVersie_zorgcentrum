@@ -10,3 +10,4 @@ C:\Users\Sebas\source\repos\Solution1\Zorgcentrum.Domein.sln\obj\Debug\net10.0\r
 C:\Users\Sebas\source\repos\Solution1\Zorgcentrum.Domein.sln\obj\Debug\net10.0\Zorgcentrum.Domein.sln.pdb
 C:\Users\Sebas\source\repos\Solution1\Zorgcentrum.Domein.sln\obj\Debug\net10.0\ref\Zorgcentrum.Domein.sln.dll
 C:\Users\Sebas\source\repos\Solution1\Zorgcentrum.Domein.sln\obj\Debug\net10.0\Zorgcent.7FA109BE.Up2Date
+C:\Users\Sebas\source\repos\Solution1\Zorgcentrum.Domein.sln\obj\Debug\net10.0\Zorgcentrum.Domein.sln.sourcelink.json

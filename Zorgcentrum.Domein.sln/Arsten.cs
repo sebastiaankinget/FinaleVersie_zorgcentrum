@@ -47,7 +47,7 @@ namespace Zorgcentrum.domein
             }
         }
 
-        public Artsen(string rijkregisternummer, string naam, string voornaam, string rIZIV, string specialisatie, string[] afdelingen) : base(rijkregisternummer, naam, voornaam)
+        public Artsen(string rijksregisternummer, string naam, string voornaam, string rIZIV, string specialisatie, string[] afdelingen) : base(rijksregisternummer, naam, voornaam)
         {
             Afdelingen = afdelingen;
             RIZIV = rIZIV;

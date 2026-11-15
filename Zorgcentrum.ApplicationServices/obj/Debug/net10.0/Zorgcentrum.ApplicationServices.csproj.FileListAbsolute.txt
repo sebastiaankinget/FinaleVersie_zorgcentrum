@@ -13,3 +13,9 @@ C:\Users\Sebas\source\repos\Solution1\Zorgcentrum.ApplicationServices\obj\Debug\
 C:\Users\Sebas\source\repos\Solution1\Zorgcentrum.ApplicationServices\obj\Debug\net10.0\refint\Zorgcentrum.ApplicationServices.dll
 C:\Users\Sebas\source\repos\Solution1\Zorgcentrum.ApplicationServices\obj\Debug\net10.0\Zorgcentrum.ApplicationServices.pdb
 C:\Users\Sebas\source\repos\Solution1\Zorgcentrum.ApplicationServices\obj\Debug\net10.0\ref\Zorgcentrum.ApplicationServices.dll
+C:\Users\Sebas\source\repos\Solution1\Zorgcentrum.ApplicationServices\bin\Debug\net10.0\infrastructuur.deps.json
+C:\Users\Sebas\source\repos\Solution1\Zorgcentrum.ApplicationServices\bin\Debug\net10.0\infrastructuur.runtimeconfig.json
+C:\Users\Sebas\source\repos\Solution1\Zorgcentrum.ApplicationServices\bin\Debug\net10.0\infrastructuur.exe
+C:\Users\Sebas\source\repos\Solution1\Zorgcentrum.ApplicationServices\bin\Debug\net10.0\infrastructuur.dll
+C:\Users\Sebas\source\repos\Solution1\Zorgcentrum.ApplicationServices\bin\Debug\net10.0\infrastructuur.pdb
+C:\Users\Sebas\source\repos\Solution1\Zorgcentrum.ApplicationServices\obj\Debug\net10.0\Zorgcentrum.ApplicationServices.sourcelink.json

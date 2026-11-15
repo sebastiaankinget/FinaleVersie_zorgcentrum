@@ -23,7 +23,7 @@ namespace Zorgcentrum.domein
 
 
 
-        public Patiënten(string rijkregisternummer, string naam, string voornaam, string[] afdelingen) : base(rijkregisternummer, naam, voornaam)
+        public Patiënten(string rijksregisternummer, string naam, string voornaam, string[] afdelingen) : base(rijksregisternummer, naam, voornaam)
         {
             Afdelingen = afdelingen;
         }

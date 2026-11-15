@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\infrastructuur\infrastructuur.csproj" />
     <ProjectReference Include="..\Zorgcentrum.Domein.sln\Zorgcentrum.Domein.sln.csproj" />
   </ItemGroup>
 
