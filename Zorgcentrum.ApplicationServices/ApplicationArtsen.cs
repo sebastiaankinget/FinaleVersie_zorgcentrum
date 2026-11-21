@@ -15,9 +15,9 @@ namespace Zorgcentrum.ApplicationServices
             string filePath = "C:\\Users\\Sebas\\source\\repos\\Solution1\\infrastructuur\\Artsen.csv";
        
 
-            List<Artsen> artsen = LoadCsvArtsen(filePath);
+            List<Arts> artsen = LoadCsvArtsen(filePath);
 
-            List<Artsen> artsenmetfoutRIZIV = new List<Artsen>();
+            List<Arts> artsenmetfoutRIZIV = new List<Arts>();
             foreach (var persoon in artsen)
             {
 
@@ -63,9 +63,9 @@ namespace Zorgcentrum.ApplicationServices
             }
 
             */
-            static List<Artsen> LoadCsvArtsen(string path)
+            static List<Arts> LoadCsvArtsen(string path)
             {
-                var result = new List<Artsen>();
+                var result = new List<Arts>();
 
                 if (!File.Exists(path))
                     throw new FileNotFoundException("CSV file not found.", path);
@@ -95,7 +95,7 @@ namespace Zorgcentrum.ApplicationServices
                         // Map to class with validation
 
 
-                        result.Add(new Artsen(
+                        result.Add(new Arts(
                             values[0], // rijksregisternummer
                             values[1], // naam
                             values[2],

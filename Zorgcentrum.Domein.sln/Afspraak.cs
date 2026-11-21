@@ -7,7 +7,7 @@ using System.Xml.Linq;
 using Zorgcentrum.domein;
 namespace Zorgcentrum.domein
 {
-    public class Afspraken
+    public class Afspraak
     {
         private int _afspraakid;
 
@@ -97,7 +97,7 @@ namespace Zorgcentrum.domein
         }
 
 
-        public Afspraken(int afspraakid, string type, DateTime datuumtijdstart, int duurMin, string rijksregisterNrPatiënt, string rijksregisterNrArts,
+        public Afspraak(int afspraakid, string type, DateTime datuumtijdstart, int duurMin, string rijksregisterNrPatiënt, string rijksregisterNrArts,
             string afdelingCode, string extra1, string extra2)
         {
             Afspraakid = afspraakid;

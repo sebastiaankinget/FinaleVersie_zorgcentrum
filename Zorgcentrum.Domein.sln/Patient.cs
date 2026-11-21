@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Zorgcentrum.domein
 {
-    public class Patiënten : Persoon
+    public class Patient : Persoon
     {
         private string[] _afdelingen;
 
@@ -23,7 +23,7 @@ namespace Zorgcentrum.domein
 
 
 
-        public Patiënten(string rijksregisternummer, string naam, string voornaam, string[] afdelingen) : base(rijksregisternummer, naam, voornaam)
+        public Patient(string rijksregisternummer, string naam, string voornaam, string[] afdelingen) : base(rijksregisternummer, naam, voornaam)
         {
             Afdelingen = afdelingen;
         }

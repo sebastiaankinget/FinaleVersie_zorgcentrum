@@ -17,7 +17,7 @@ namespace Zorgcentrum.ApplicationServices
             string filePath = "C:\\Users\\Sebas\\source\\repos\\Solution1\\infrastructuur\\Patienten.csv";
        
 
-            List<Patiënten> patiënten = LoadCsvPatiënten(filePath);
+            List<Patient> patiënten = LoadCsvPatiënten(filePath);
 
          
             foreach (var persoon in patiënten)
@@ -44,9 +44,9 @@ namespace Zorgcentrum.ApplicationServices
             }
 
 
-            static List<Patiënten> LoadCsvPatiënten(string path)
+            static List<Patient> LoadCsvPatiënten(string path)
             {
-                var result = new List<Patiënten>();
+                var result = new List<Patient>();
 
                 if (!File.Exists(path))
                     throw new FileNotFoundException("CSV file not found.", path);
@@ -66,7 +66,7 @@ namespace Zorgcentrum.ApplicationServices
 
 
 
-                        result.Add(new Patiënten(
+                        result.Add(new Patient(
                             values[0], // rijksregisternummer
                             values[1], // naam
                             values[2], // voornaam

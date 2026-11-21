@@ -13,9 +13,9 @@ namespace Zorgcentrum.ApplicationServices
         public static void RunAfspraken()
         {
             string filePath = @"C:\Users\Sebas\source\repos\Solution1\infrastructuur\Afspraken.csv";
-            int i = 0;
+            
 
-            List<Afspraken> afspraken = LoadCsvAfspraken(filePath);
+            List<Afspraak> afspraken = LoadCsvAfspraken(filePath);
 
             foreach (var afspraak in afspraken)
             {
@@ -34,9 +34,9 @@ namespace Zorgcentrum.ApplicationServices
             }
 
 
-            static List<Afspraken> LoadCsvAfspraken(string path)
+            static List<Afspraak> LoadCsvAfspraken(string path)
             {
-                var result = new List<Afspraken>();
+                var result = new List<Afspraak>();
 
                 if (!File.Exists(path))
                     throw new FileNotFoundException("CSV file not found.", path);
@@ -64,7 +64,7 @@ namespace Zorgcentrum.ApplicationServices
                         // Map to class with validation
                         if (values.Length < 8)
                         {
-                            result.Add(new Afspraken(
+                            result.Add(new Afspraak(
                              int.Parse(values[0]), // Afspraakid
                              values[1], // Type
                              DateTime.Parse(values[2]), // Datuumtijdstart
@@ -80,7 +80,7 @@ namespace Zorgcentrum.ApplicationServices
                         }
                         else if (values.Length < 9)
                         {
-                            result.Add(new Afspraken(
+                            result.Add(new Afspraak(
                              int.Parse(values[0]), // Afspraakid
                              values[1], // Type
                              DateTime.Parse(values[2]), // Datuumtijdstart
@@ -96,7 +96,7 @@ namespace Zorgcentrum.ApplicationServices
 
                         else
                         {
-                            result.Add(new Afspraken(
+                            result.Add(new Afspraak(
                                     int.Parse(values[0]), // Afspraakid
                                     values[1], // Type
                                     DateTime.Parse(values[2]), // Datuumtijdstart

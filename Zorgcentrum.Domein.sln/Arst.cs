@@ -7,7 +7,7 @@ using System.Windows.Markup;
 using Zorgcentrum.domein;
 namespace Zorgcentrum.domein
 {
-    public class Artsen : Persoon
+    public class Arts : Persoon
     {
         private string[] _afdelingen;
 
@@ -47,7 +47,7 @@ namespace Zorgcentrum.domein
             }
         }
 
-        public Artsen(string rijksregisternummer, string naam, string voornaam, string rIZIV, string specialisatie, string[] afdelingen) : base(rijksregisternummer, naam, voornaam)
+        public Arts(string rijksregisternummer, string naam, string voornaam, string rIZIV, string specialisatie, string[] afdelingen) : base(rijksregisternummer, naam, voornaam)
         {
             Afdelingen = afdelingen;
             RIZIV = rIZIV;
